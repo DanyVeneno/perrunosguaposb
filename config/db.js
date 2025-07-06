@@ -7,8 +7,7 @@ export const db = async () => {
     const url = `${db.connection.host}:${db.connection.port}`;
     console.log(
       colors.blue(
-        "Pinche putito tu base de datos esta conectada muy chingon",
-        url
+        `Pinche putito tu base de datos esta conectada muy chingon ${url}`
       )
     );
   } catch (error) {
